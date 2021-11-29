@@ -1,7 +1,7 @@
 <?php
 
-// $db = mysqli_connect('localhost', 'root', 'root', 'dbescuela');
-$db = mysqli_connect('localhost', 'id18026148_root', 'aWXN(5\4PM5YCsu~', 'id18026148_dbescuela');
+$db = mysqli_connect('localhost', 'root', 'root', 'dbescuela');
+// $db = mysqli_connect('localhost', 'id18026148_root', 'aWXN(5\4PM5YCsu~', 'id18026148_dbescuela');
 
 
 if (!$db) {

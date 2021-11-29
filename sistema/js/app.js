@@ -4,8 +4,8 @@
 // Ruta del servidor y API
 //===========================================================
 
-// const server = "http://localhost/escuela/sistema/php/";
-const server = "https://escuelaemsad.000webhostapp.com/php/";
+const server = "http://localhost/escuela/sistema/php/";
+// const server = "https://escuelaemsad.000webhostapp.com/php/";
 
 let apiView;
 let apiEdit;

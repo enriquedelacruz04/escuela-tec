@@ -6,8 +6,8 @@
 
 let routes = {
     currentRoute: window.location.pathname,
-    // indexRoute: "/escuela/sistema/",
-    indexRoute: "/",
+    indexRoute: "/escuela/sistema/",
+    // indexRoute: "/",
     homeRoute: "/pages/home.html",
 };
 
