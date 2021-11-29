@@ -1,0 +1,135 @@
+//////////////////////////////////////// import
+//////////////////////////////////////// import
+
+@import "variables";
+@import "mixins";
+
+//////////////////////////////////////// generales
+//////////////////////////////////////// generales
+
+body {
+    font-family: $fuente-principal;
+    background-color: $blanco1;
+}
+
+.container {
+    max-width: 1100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+//===========================================================
+// Login
+//===========================================================
+
+.login {
+    .titulo {
+        font-size: 5rem;
+        margin-bottom: 8rem;
+        margin-top: 4rem;
+        font-weight: 100;
+    }
+    .form-signin {
+        width: 100%;
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    .form-signin .checkbox {
+        font-weight: 400;
+    }
+
+    .form-signin .form-floating:focus-within {
+        z-index: 2;
+    }
+
+    .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+}
+
+//===========================================================
+// Header
+//===========================================================
+
+header {
+    .navbar {
+        .navbar-brand {
+            margin-right: 2rem;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        img {
+            width: 50px;
+            margin-right: 1rem;
+        }
+
+        .nav-link {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            align-items: center;
+        }
+
+        i {
+            color: $blanco1;
+            font-size: 1.5rem;
+            flex: 1;
+            margin-bottom: 0.8rem;
+        }
+    }
+}
+
+//===========================================================
+// Footer
+//===========================================================
+
+footer {
+    p {
+        margin: 0;
+    }
+}
+//===========================================================
+// Main
+//===========================================================
+
+main {
+    margin-top: 3rem;
+    flex: 1 0 auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+//===========================================================
+// Tablas 
+//=========================================================== 
+
+.table-acciones{
+    display: flex;
+    justify-content: space-between;
+
+    // :first-child{
+    //     margin-right: 0.5rem;
+    // }
+}

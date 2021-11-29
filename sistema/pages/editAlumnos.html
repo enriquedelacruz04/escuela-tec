@@ -1,0 +1,62 @@
+<div class='p-5 mb-4 bg-light rounded-3'>
+    <div class='container-fluid py-2'>
+        <h1 class='display-5 fw-bold'>Alumnos</h1>
+
+        <form class="row g-3" id="form-alumnos">
+
+            <div class="col-md-6">
+                <label for="matricula" class="form-label">Matricula</label>
+                <input type="text" class="form-control" id="matricula" name="matricula">
+            </div>
+
+            <div class="col-md-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+
+            <div class="col-md-6">
+                <label for="edad" class="form-label">Edad</label>
+                <input type="number" class="form-control" id="edad" name="edad">
+            </div>
+
+            <div class="col-md-6">
+                <label for="genero" class="form-label">Genero</label>
+                <select class="form-select" id="genero" name="genero">
+                    <option selected>Escoger...</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <label for="semestre" class="form-label">Semestre</label>
+                <input type="text" class="form-control" id="semestre" name="semestre">
+            </div>
+
+            <div class="col-md-6">
+                <label for="curso" class="form-label">Curso</label>
+                <select class="form-select" id="cursos" name="cursos">
+                    <option selected>Escoger...</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <label for="trabajos" class="form-label">Trabajos</label>
+                <select class="form-select" id="trabajos" name="trabajos">
+                    <option selected>Escoger...</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <input type="hidden" class="form-control" id="edit" name="edit">
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Aceptar</button>
+            </div>
+
+        </form>
+
+
+    </div>
+</div>
